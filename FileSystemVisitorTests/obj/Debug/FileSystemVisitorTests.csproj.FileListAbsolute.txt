@@ -1,0 +1,7 @@
+c:\users\user\documents\visual studio 2013\Projects\MethodsMentoring\FileSystemVisitorTests\bin\Debug\FileSystemVisitorTests.dll
+c:\users\user\documents\visual studio 2013\Projects\MethodsMentoring\FileSystemVisitorTests\bin\Debug\FileSystemVisitorTests.pdb
+c:\users\user\documents\visual studio 2013\Projects\MethodsMentoring\FileSystemVisitorTests\bin\Debug\Visitor.dll
+c:\users\user\documents\visual studio 2013\Projects\MethodsMentoring\FileSystemVisitorTests\bin\Debug\Visitor.pdb
+c:\users\user\documents\visual studio 2013\Projects\MethodsMentoring\FileSystemVisitorTests\obj\Debug\FileSystemVisitorTests.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\MethodsMentoring\FileSystemVisitorTests\obj\Debug\FileSystemVisitorTests.dll
+c:\users\user\documents\visual studio 2013\Projects\MethodsMentoring\FileSystemVisitorTests\obj\Debug\FileSystemVisitorTests.pdb

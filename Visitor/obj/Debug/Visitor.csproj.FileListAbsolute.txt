@@ -1,0 +1,4 @@
+c:\users\user\documents\visual studio 2013\Projects\MethodsMentoring\Visitor\bin\Debug\Visitor.dll
+c:\users\user\documents\visual studio 2013\Projects\MethodsMentoring\Visitor\bin\Debug\Visitor.pdb
+c:\users\user\documents\visual studio 2013\Projects\MethodsMentoring\Visitor\obj\Debug\Visitor.dll
+c:\users\user\documents\visual studio 2013\Projects\MethodsMentoring\Visitor\obj\Debug\Visitor.pdb
