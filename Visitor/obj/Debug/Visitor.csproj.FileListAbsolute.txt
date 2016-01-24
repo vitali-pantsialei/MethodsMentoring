@@ -2,3 +2,7 @@ c:\users\user\documents\visual studio 2013\Projects\MethodsMentoring\Visitor\bin
 c:\users\user\documents\visual studio 2013\Projects\MethodsMentoring\Visitor\bin\Debug\Visitor.pdb
 c:\users\user\documents\visual studio 2013\Projects\MethodsMentoring\Visitor\obj\Debug\Visitor.dll
 c:\users\user\documents\visual studio 2013\Projects\MethodsMentoring\Visitor\obj\Debug\Visitor.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\MethodsMentoring\Visitor\bin\Debug\NLog.config
+C:\Users\user\Documents\Visual Studio 2013\Projects\MethodsMentoring\Visitor\bin\Debug\NLog.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\MethodsMentoring\Visitor\bin\Debug\NLog.xml
+C:\Users\user\Documents\Visual Studio 2013\Projects\MethodsMentoring\Visitor\obj\Debug\Visitor.csprojResolveAssemblyReference.cache

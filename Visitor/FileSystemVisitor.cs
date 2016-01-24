@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -14,6 +15,7 @@ namespace Visitor
             public bool isTerm { get; set; }
         }
 
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         private DirectoryInfo root;
         private Func<FileSystemInfo, bool> fileSystemFilter;
         private ForTerm terminateSearch = new ForTerm { isTerm = false };
@@ -39,7 +41,10 @@ namespace Visitor
         public IEnumerator<FileSystemInfo> GetEnumerator()
         {
             if (terminateSearch.isTerm)
+            {
+                logger.Info("Search has been terminated");
                 yield break;
+            }
 
             IterationControlArgs args = DefaultIterationControlArgs();
             args.CurrentFile = root;
@@ -47,6 +52,7 @@ namespace Visitor
             if (args.TerminateSearch)
             {
                 terminateSearch.isTerm = true;
+                logger.Info("Search has been terminated");
                 yield break;
             }
 
@@ -62,10 +68,14 @@ namespace Visitor
                     if (args.TerminateSearch)
                     {
                         terminateSearch.isTerm = true;
+                        logger.Info("Search has been terminated");
                         yield break;
                     }
                     if (args.Exclude)
+                    {
+                        logger.Warn("Folder has been excluded");
                         continue;
+                    }
 
                     if (fileSystemFilter(d))
                     {
@@ -75,10 +85,14 @@ namespace Visitor
                         if (args.TerminateSearch)
                         {
                             terminateSearch.isTerm = true;
+                            logger.Info("Search has been terminated");
                             yield break;
                         }
                         if (args.Exclude)
+                        {
+                            logger.Warn("Folder has been excluded");
                             continue;
+                        }
                     }
                     var newVisitor = new FileSystemVisitor(d.FullName, fileSystemFilter);
                     InheretAllEvents(newVisitor);
@@ -96,10 +110,14 @@ namespace Visitor
                     if (args.TerminateSearch)
                     {
                         terminateSearch.isTerm = true;
+                        logger.Info("Search has been terminated");
                         yield break;
                     }
                     if (args.Exclude)
+                    {
+                        logger.Warn("File has been excluded");
                         continue;
+                    }
 
                     if (fileSystemFilter(f))
                     {
@@ -109,10 +127,14 @@ namespace Visitor
                         if (args.TerminateSearch)
                         {
                             terminateSearch.isTerm = true;
+                            logger.Info("Search has been terminated");
                             yield break;
                         }
                         if (args.Exclude)
+                        {
+                            logger.Warn("File has been excluded");
                             continue;
+                        }
 
                         yield return f;
                     }
@@ -123,6 +145,7 @@ namespace Visitor
             if (args.TerminateSearch)
             {
                 terminateSearch.isTerm = true;
+                logger.Info("Search has been terminated");
                 yield break;
             }
         }

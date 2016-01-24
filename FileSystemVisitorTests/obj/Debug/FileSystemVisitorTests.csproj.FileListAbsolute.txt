@@ -5,3 +5,6 @@ c:\users\user\documents\visual studio 2013\Projects\MethodsMentoring\FileSystemV
 c:\users\user\documents\visual studio 2013\Projects\MethodsMentoring\FileSystemVisitorTests\obj\Debug\FileSystemVisitorTests.csprojResolveAssemblyReference.cache
 c:\users\user\documents\visual studio 2013\Projects\MethodsMentoring\FileSystemVisitorTests\obj\Debug\FileSystemVisitorTests.dll
 c:\users\user\documents\visual studio 2013\Projects\MethodsMentoring\FileSystemVisitorTests\obj\Debug\FileSystemVisitorTests.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\MethodsMentoring\FileSystemVisitorTests\bin\Debug\NLog.config
+C:\Users\user\Documents\Visual Studio 2013\Projects\MethodsMentoring\FileSystemVisitorTests\bin\Debug\NLog.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\MethodsMentoring\FileSystemVisitorTests\bin\Debug\NLog.xml

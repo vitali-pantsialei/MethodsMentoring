@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemVisitorTests", "FileSystemVisitorTests\FileSystemVisitorTests.csproj", "{11C467DC-34B5-4F26-9F2E-EBD10829A087}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportLog", "ReportLog\ReportLog.csproj", "{DFB37843-D74F-4FE0-B58A-54A44AAAA729}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{11C467DC-34B5-4F26-9F2E-EBD10829A087}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11C467DC-34B5-4F26-9F2E-EBD10829A087}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11C467DC-34B5-4F26-9F2E-EBD10829A087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB37843-D74F-4FE0-B58A-54A44AAAA729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB37843-D74F-4FE0-B58A-54A44AAAA729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB37843-D74F-4FE0-B58A-54A44AAAA729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB37843-D74F-4FE0-B58A-54A44AAAA729}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

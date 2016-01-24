@@ -1,0 +1,5 @@
+C:\Users\user\Documents\Visual Studio 2013\Projects\MethodsMentoring\ReportLog\bin\Debug\ReportLog.exe.config
+C:\Users\user\Documents\Visual Studio 2013\Projects\MethodsMentoring\ReportLog\bin\Debug\ReportLog.exe
+C:\Users\user\Documents\Visual Studio 2013\Projects\MethodsMentoring\ReportLog\bin\Debug\ReportLog.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\MethodsMentoring\ReportLog\obj\Debug\ReportLog.exe
+C:\Users\user\Documents\Visual Studio 2013\Projects\MethodsMentoring\ReportLog\obj\Debug\ReportLog.pdb
